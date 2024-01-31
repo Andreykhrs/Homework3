@@ -28,11 +28,11 @@ public class Main {
 
         System.out.println();
         System.out.println("Задача №3");
-        int students_L_P = 23;
-        int students_A_S = 27;
-        int students_E_A = 30;
+        int studentsLudmPavl = 23;
+        int studentsAnnSerg = 27;
+        int studentsEkatAndr = 30;
         int papers = 480;
-        System.out.println("На каждого ученика рассчитано " + papers / (students_E_A + students_A_S + students_L_P) + " листов бумаги.");
+        System.out.println("На каждого ученика рассчитано " + papers / (studentsEkatAndr + studentsAnnSerg + studentsLudmPavl) + " листов бумаги.");
 
         System.out.println();
         System.out.println("Задача №4");
@@ -90,10 +90,10 @@ public class Main {
         int salaryMasha = 67760;
         int salaryDenis = 83690;
         int salaryKristina = 76230;
-        float i=1.1f;
-        float indexSalaryMasha = salaryMasha*i;
-        float indexSalaryDenis = salaryDenis*i;
-        float indexSalaryKristina = salaryKristina*i;
+        float increaseCoeff=1.1f;
+        float indexSalaryMasha = salaryMasha*increaseCoeff;
+        float indexSalaryDenis = salaryDenis*increaseCoeff;
+        float indexSalaryKristina = salaryKristina*increaseCoeff;
         float differenceSalaryYearMasha = (indexSalaryMasha-salaryMasha)*monthOfYear;
         float differenceSalaryYearDenis = (indexSalaryDenis-salaryDenis)*monthOfYear;
         float differenceSalaryYearKristina = (indexSalaryKristina-salaryKristina)*monthOfYear;
